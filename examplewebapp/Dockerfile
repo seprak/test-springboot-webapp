@@ -9,5 +9,5 @@ ADD pom.xml /code/pom.xml
 ADD src /code/src
 RUN ["mvn", "install"]
 
-ADD target/examplewebapp-0.0.1-SNAPSHOT.jar examplewebapp-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java","-jar","examplewebapp-0.0.1-SNAPSHOT.jar"]
+ADD /target/examplewebapp-0.0.1-SNAPSHOT.jar /target/examplewebapp-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/target/examplewebapp-0.0.1-SNAPSHOT.jar"]
