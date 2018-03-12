@@ -23,7 +23,7 @@
    		<docker.image.prefix>springio</docker.image.prefix>
 	</properties>
 
-      <!-- Added some comments -->
+    <!-- Added some comment -->
 	<build>
 		<plugins>
 			<plugin>
